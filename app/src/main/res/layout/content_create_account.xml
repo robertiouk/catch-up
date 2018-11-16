@@ -61,6 +61,12 @@
             android:id="@+id/create_account_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="createAccount"
             android:text="@string/action_register_account" />
+
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
